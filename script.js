@@ -7,6 +7,7 @@ function addTask(){
     }
     else{
         let li = document.createElement("li");
+        li.classList.add("li-style");
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
         let span = document.createElement("span");
